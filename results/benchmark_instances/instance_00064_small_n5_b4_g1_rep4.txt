@@ -1,0 +1,27 @@
+# Instance for AlgorithmDP (no-wait flowshop)
+instance_id: 64
+n: 5
+b: 4
+gamma: 1
+q: 2
+s: 4
+rep: 4
+seed: 20260365
+
+# Jobs (id p)
+1 155
+2 153
+3 82
+4 145
+5 190
+
+# Solver results (filled after solving)
+obj_dp: 278
+obj_gurobi: 278
+time_dp: 0.000020
+time_gurobi: 0.002956
+status_dp: OPTIMAL
+status_gurobi: OPTIMAL
+obj_dp_prime: 284
+time_dp_prime: 0.000009
+status_dp_prime: OPTIMAL
